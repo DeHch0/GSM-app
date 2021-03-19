@@ -1,11 +1,19 @@
 import React from 'react';
 
-const ProductCard = ({elm}) => {
+const ProductCard = ({params}) => {
 
 
-    console.log(elm);
+    console.log(params);
     return (
-        <h1>Opalq</h1>
+       params !== 'undefined' ?
+        <div className='product-card'>
+            <p>{params._id}</p>
+            <p>{params.brand}</p>
+            <p>{params.model}</p>
+            <p>{params.imageUrl}</p>
+            <p>{params.price}</p>
+        </div>
+        : <p>Product not found :(</p>
     )
 }
 

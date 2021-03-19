@@ -1,10 +1,13 @@
+import ProductList from '../Product/ProductsList';
 import './style.css';
 
 const Home = () => {
 
     return (
-        
-        <h1>Hello World !</h1>
+        <div>
+            <h1>Hello ! </h1>
+            <ProductList></ProductList>
+        </div>
     )
 }
 
