@@ -10,6 +10,7 @@ import {
 }
   from 'react-router-dom';
 import './App.css';
+import Register from '../Register/Register.jsx';
 
 function App() {
 
@@ -27,6 +28,10 @@ function App() {
 
         <Route path='/login'>
           <Login />
+        </Route>
+
+        <Route path='/register'>
+          <Register />
         </Route>
 
       </Switch>

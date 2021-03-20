@@ -4,8 +4,8 @@ import './style.css';
 const Home = () => {
 
     return (
-        <div>
-            <h1>Hello ! </h1>
+        <div className='home'>
+            
             <ProductList></ProductList>
         </div>
     )

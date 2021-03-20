@@ -1,19 +1,23 @@
 import React from 'react';
+import './style.css'
+import {Link} from 'react-router-dom';
 
-const ProductCard = ({params}) => {
+const ProductCard = ({ params }) => {
 
 
     console.log(params);
     return (
-       params !== 'undefined' ?
-        <div className='product-card'>
-            <p>{params._id}</p>
-            <p>{params.brand}</p>
-            <p>{params.model}</p>
-            <p>{params.imageUrl}</p>
-            <p>{params.price}</p>
-        </div>
-        : <p>Product not found :(</p>
+        params !== 'undefined' ?
+            <div className='product-card'>
+
+                    <img className='product-image' src={params.imageUrl} alt="Image" />
+                    <p className='product-brand'>{params.brand} {params.model}</p>
+                    <button className='product-view'><Link to={`product/` + params.id}>View</Link></button>
+                    <button className='product-price'>{params.price} lv.</button>
+               
+                
+            </div>
+            : <p>Product not found :(</p>
     )
 }
 

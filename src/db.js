@@ -21,5 +21,21 @@ export const data = [
     "model" : "P40 PRO DS SILVER",
     "imageUrl": "https://cdn.technomarket.bg/ng/media/cache/mid_thumb/uploads/library/product/09181567/5ef093e77877e.jpg.webp",
     "price" : "1359"
+},
+
+{
+    "id": 4,
+    "brand": "Huawei",
+    "model" : "P20 PRO DS SILVER",
+    "imageUrl": "https://cdn.technomarket.bg/ng/media/cache/mid_thumb/uploads/library/product/09181567/5ef093e77877e.jpg.webp",
+    "price" : "1359"
+},
+
+{
+    "id": 5,
+    "brand": "Huawei",
+    "model" : "P10 PRO DS SILVER",
+    "imageUrl": "https://cdn.technomarket.bg/ng/media/cache/mid_thumb/uploads/library/product/09181567/5ef093e77877e.jpg.webp",
+    "price" : "1359"
 }
 ];
