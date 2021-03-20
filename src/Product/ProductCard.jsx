@@ -12,8 +12,8 @@ const ProductCard = ({ params }) => {
 
                     <img className='product-image' src={params.imageUrl} alt="Image" />
                     <p className='product-brand'>{params.brand} {params.model}</p>
-                    <button className='product-view'><Link to={`product/` + params.id}>View</Link></button>
-                    <button className='product-price'>{params.price} lv.</button>
+                    <Link to={`product/` + params.id}><button className='product-view'>Детайли</button></Link>
+                    <button className='product-price'>{params.price} лв.</button>
                
                 
             </div>

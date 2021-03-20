@@ -7,7 +7,7 @@ const ProductList = () => {
     console.log(data);
 
     return (
-        <div className='products-list'>
+        <div className='product-list'>
            
 
         {data ?
