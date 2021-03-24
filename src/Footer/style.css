@@ -1,0 +1,13 @@
+.footer {
+    vertical-align: bottom;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.footer span {
+    color: goldenrod;
+
+}
