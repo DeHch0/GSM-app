@@ -34,7 +34,7 @@
 
 .product-view {
     width: 50%;
-    background-color: rgb(255, 109, 65); /* Green */
+    background-color: rgb(255, 109, 65);
     border: none;
     padding: 15px 0px;
     text-align: center;
@@ -51,7 +51,7 @@
 
 .product-price {
     width: 50%;
-    background-color: rgb(253, 60, 60); /* Green */
+    background-color: rgb(253, 60, 60);
     border: none;
     color: white;
     padding: 15px 0px;

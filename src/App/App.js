@@ -1,4 +1,3 @@
-import { data } from '../db.js';
 import Header from '../Header/Header'
 import Home from '../Home/Home';
 import Login from '../Login/Login'
@@ -11,10 +10,10 @@ import {
   from 'react-router-dom';
 import './App.css';
 import Register from '../Register/Register.jsx';
+import Footer from '../Footer/index.jsx';
 
 function App() {
 
-  let name = data.json;
 
   return (
     <Router>
@@ -24,6 +23,7 @@ function App() {
 
         <Route exact path='/'>
           <Home />
+          <Footer/>
         </Route>
 
         <Route path='/login'>
@@ -35,6 +35,7 @@ function App() {
         </Route>
 
       </Switch>
+
     </Router>
   );
 }

@@ -1,10 +1,8 @@
 import React, {useEffect} from 'react';
 import ProductCard from './ProductCard';
-import {data} from '../db';
+import {data} from '../DB/products.js';
 import './style.css';
 const ProductList = () => {
-
-    console.log(data);
 
     return (
         <div className='product-list'>
